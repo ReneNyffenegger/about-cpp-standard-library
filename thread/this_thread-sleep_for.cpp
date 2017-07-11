@@ -1,3 +1,6 @@
+//
+//  g++ -std=c++11 this_thread-sleep_for.cpp
+//
 #include <iostream>
 #include <thread>
 #include <chrono>
