@@ -1,5 +1,5 @@
 // 
-// with g++ -std=c++11 iterate.cpp
+// g++ -std=c++11 iterate.cpp
 //
 #include <array>
 #include <iostream>
