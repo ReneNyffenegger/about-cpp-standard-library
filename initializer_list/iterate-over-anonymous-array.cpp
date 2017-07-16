@@ -6,7 +6,9 @@
 
 int main() {
 
-  for (auto fib: {1, 1, 2, 3, 5, 8, 13, 21, 34}) {
+  std::initializer_list<int> fibs = {1, 1, 2, 3, 5, 8, 13, 21, 34};
+  
+  for (auto fib: fibs) {
     std::cout << fib << std::endl;
   }
 
