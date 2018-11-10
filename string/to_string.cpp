@@ -6,10 +6,11 @@
 
 int main() {
 
-  bool b = true;
+  std::string res;
 
-  std::string b_str = std::to_string(b);
-
-  std::cout << b_str << std::endl;
+  bool   b = true        ; res = std::to_string(b); std::cout << res << std::endl; // 1
+  float  f = 123.45678901; res = std::to_string(f); std::cout << res << std::endl; // 123.456787
+  double d = 123.45678901; res = std::to_string(d); std::cout << res << std::endl; // 123.456789
+  long   l = 123456789012; res = std::to_string(l); std::cout << res << std::endl; // 123456789012
 
 }
