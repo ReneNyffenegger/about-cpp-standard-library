@@ -11,8 +11,19 @@ void getString(char* buf) {
 
 
 int main() {
-   std::string str(100, 0);
+//
+// Allocate buffer (100 bytes) for string.
+// Initialize buffer with the null byte.
+//
+   std::string str(100, '\x00');
+
+//
+// Assign string to our std::string:
+//
    getString(&str[0]);
 
+//
+// Verify result of operation
+//
    std::cout << str << std::endl;
 }
