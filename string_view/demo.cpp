@@ -11,6 +11,7 @@ template<typename STR> void f(STR str) {
     const char* addr_sub = sub.data();
 
     std::cout << "Difference between addresses: " << (addr_str - addr_sub) << std::endl;
+    std::cout << sub.data() << std::endl;
 }
 
 int main() {
